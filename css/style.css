@@ -1,0 +1,71 @@
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+}
+body{
+	display: inline-block;
+	background-color: rgb(255,215,0);
+	width: 100%;
+	max-width: 1380px;
+	text-align: center;
+
+	
+}
+
+.pokedex{
+	height: 200px;
+	width: 20%;
+	text-align: center;
+ 	float: left;
+	padding: 40px;
+	border: 1px solid rgba(0, 0, 0, 0.78);
+	margin: 40px;
+	overflow: auto;
+
+
+}
+.pokedex img{
+	width: 100px;
+	
+}
+
+span{
+	margin: 5px;
+
+}
+h2{
+	font-size: 25px;
+	text-decoration: underline;
+}
+.folha{
+	color:rgb(50,205,50);
+	
+}
+.fogo{
+	color: rgb(255,0,0);
+}
+.agua{
+	color:rgb(0,255,255);
+}
+p{
+	font-size: 20px;
+}
+#plantas{
+	backdrop-filter: blur(15px);
+	background: rgba(255, 255, 255, 0.15);
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-webkit-backdrop-filter:blur(15px);}
+#chamas{
+background-color:rgb(255,140,0);
+}
+#ondas{
+	background-color: rgb(32,178,170);
+}
+a{
+	text-align: center;
+	margin: 10px;
+}
